@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring-jte-i18n-example
+  threads:
+    virtual:
+      enabled: true
+gg:
+  jte:
+    developmentMode: true
