@@ -1,0 +1,13 @@
+@param welcome: String
+@param hello: String
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>${welcome}</title>
+</head>
+<body>
+<span>${hello}</span><br>
+<span>${welcome}</span><br>
+</body>
+</html>
