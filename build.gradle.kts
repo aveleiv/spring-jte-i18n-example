@@ -23,6 +23,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("gg.jte:jte:3.1.12")
+    implementation("gg.jte:jte-kotlin:3.1.12")
     implementation("gg.jte:jte-spring-boot-starter-3:3.1.12")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     developmentOnly("org.springframework.boot:spring-boot-devtools")
