@@ -1,20 +1,17 @@
-@param welcome: String
-@param hello: String
-@param toEnglish: String
-@param toUkrainian: String
+@param localize: io.github.aveleiv.jte.i18n.example.Localizer
 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>${welcome}</title>
+    <title>${localize("welcome")}</title>
 </head>
 <body>
-<span>${hello}</span><br>
-<span>${welcome}</span><br>
+<span>${localize("hello")}</span><br>
+<span>${localize("welcome")}</span><br>
 <!-- Locale switch buttons -->
 <button type="button"
-        onclick="window.location.href='/?lang=en'">${toEnglish}</button>
+        onclick="window.location.href='/?lang=en'">${localize("switch.en")}</button>
 <button type="button"
-        onclick="window.location.href='/?lang=ua'">${toUkrainian}</button>
+        onclick="window.location.href='/?lang=ua'">${localize("switch.ua")}</button>
 </body>
 </html>

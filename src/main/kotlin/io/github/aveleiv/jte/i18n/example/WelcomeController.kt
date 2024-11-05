@@ -12,11 +12,6 @@ class WelcomeController(private val messageSource: MessageSource) {
 
     @GetMapping
     fun index(model: Model): String {
-        val locale = LocaleContextHolder.getLocale()
-        model["welcome"] = messageSource.getMessage("welcome", null, locale)
-        model["hello"] = messageSource.getMessage("hello", null, locale)
-        model["toEnglish"] = messageSource.getMessage("switch.en", null, locale)
-        model["toUkrainian"] = messageSource.getMessage("switch.ua", null, locale)
         return "index"
     }
 }
