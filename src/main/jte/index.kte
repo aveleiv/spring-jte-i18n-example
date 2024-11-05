@@ -1,5 +1,7 @@
 @param welcome: String
 @param hello: String
+@param toEnglish: String
+@param toUkrainian: String
 
 <html lang="en">
 <head>
@@ -9,5 +11,10 @@
 <body>
 <span>${hello}</span><br>
 <span>${welcome}</span><br>
+<!-- Locale switch buttons -->
+<button type="button"
+        onclick="window.location.href='/?lang=en'">${toEnglish}</button>
+<button type="button"
+        onclick="window.location.href='/?lang=ua'">${toUkrainian}</button>
 </body>
 </html>
