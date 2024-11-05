@@ -1,9 +1,12 @@
 spring:
-  application:
-    name: spring-jte-i18n-example
   threads:
     virtual:
       enabled: true
+  application:
+    name: spring-jte-i18n-example
+
 gg:
   jte:
     developmentMode: true
+    templateSuffix: .kte
+
